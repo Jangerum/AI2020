@@ -1,0 +1,10 @@
+import tensorflow as tf
+import keras 
+
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, AveragePooling2D
+from keras.optimizers import Adam
+from keras.losses import sparse_categorical_crossentropy as scc
+from keras.datasets import cifar10
+
+import numpy as np
